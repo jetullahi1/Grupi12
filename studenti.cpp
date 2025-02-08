@@ -46,4 +46,4 @@ int main() {
         cout << "Futni të dhënat për studentin " << i + 1 << ":" << endl;
         merrStudent(studentet[i]);
     }
-}//
+}
