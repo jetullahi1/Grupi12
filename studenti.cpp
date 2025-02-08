@@ -22,7 +22,6 @@ bool kaKaluarProvimet(const double nota[],int numriNotave){
     return true;
 }
 
-
 Student gjejStudentinMeMesatarenMeTeLarte(const Student studentet[], int numriStudenteve) {
     int indeksMax = 0;
     double mesMax = llogaritMesataren(studentet[0].nota, 3);
@@ -47,4 +46,4 @@ int main() {
         cout << "Futni të dhënat për studentin " << i + 1 << ":" << endl;
         merrStudent(studentet[i]);
     }
-}
+}//
